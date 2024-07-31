@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = ["a","bb","cc","hhhhhhhhh","ggggg"];
+    let res = "";
+    for(let word of arr){
+        if(word.length > res.length){
+            res = word;
+        }
+    }
+    console.log("Longest string in the array: "+res)
+    </script>
+</body>
+</html>
